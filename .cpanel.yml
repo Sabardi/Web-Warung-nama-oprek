@@ -1,9 +1,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/sabn3321/public_html/
-    - /bin/cp -R asset $DEPLOYPATH
-    - /bin/cp -R document $DEPLOYPATH
-    - /bin/cp about.html $DEPLOYPATH
-    - /bin/cp book.html $DEPLOYPATH
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp menu.html $DEPLOYPATH
+    - /bin/cp -R adam $DEPLOYPATH
